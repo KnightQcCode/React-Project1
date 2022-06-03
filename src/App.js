@@ -4,6 +4,7 @@ import UploadForm from "./comps/UploadForm";
 
 function App() {
     console.log('allo');
+    
   return (
       <div className="App">
         <Title/>
