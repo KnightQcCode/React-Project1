@@ -85,13 +85,15 @@ label:hover{
     position: relative;
     opacity: 0.8;
 }
-.img-wrap img{
+
+.img-wrap img {
     min-width: 100%;
     min-height: 100%;
     max-width: 150%;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -100%;
+    transform: translateX(50%);
 }
 
 /* modal styles */
